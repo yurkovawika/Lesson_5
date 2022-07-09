@@ -24,7 +24,6 @@ int Sum (int [] array)
     int sum = 0;
     for (int y = 0; y < array.Length; y++)
     {
-        //int sum = 0;
         if (y>0 & y%2!=0)
         {
             sum =sum+ array[y];
